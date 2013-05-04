@@ -1,4 +1,6 @@
 Wunderkam::Application.routes.draw do
+  
+  match "/auth/twitter/callback" => "home#callback"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
