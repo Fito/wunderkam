@@ -7,7 +7,6 @@ gem 'omniauth-twitter'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-gem 'debugger'
 
 group :development do
   gem 'sqlite3'

@@ -1,3 +1,76 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	background-color: black;
+	background-image: url('BG_Desktop.jpg');
+	}
+
+div button {
+	color: white;
+	font-family: Verdana;
+	font-size: 10px;
+
+}
+
+div.button{
+	background-color: black
+	opacity: 0.8;
+	width: 100%
+	height: 95px;
+	margin-bottom
+}
+
+.button h4 {
+	color: white;
+	font-family: Verdana;
+	font-size: 36px;
+}
+
+.bird h4 {
+	color: white;
+	font-family: Verdana;
+	font-size: 20px;
+}
+
+.icon h4 {
+	color: white;
+	font-family: Verdana;
+	font-size: 20px;
+}
+
+.c_icon h4 {
+	color: white;
+	font-family: Verdana;
+	font-size: 20px;
+}
+n
+
+#header {
+	z-index: 1;
+	position: fixed;
+	background-color: black;
+	margin-top: -20px;
+	width: 100%;
+	height: 60px;
+	margin-bottom: 10px;	
+}
+
+#name {
+	float: left;
+	color: #009999;
+	font-size: 15PX;
+	font-family: Vernada, sans-serif;
+	margin-left: 5px;
+	padding-top: 5px;
+}
+#icons {
+	z-index: 1;
+	position: fixed;
+	background-color: black;
+	margin-bottom: -20px;
+	margin-top: 10px;
+	width: 100%;
+	height: 120px;
+}
